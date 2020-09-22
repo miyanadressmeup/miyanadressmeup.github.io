@@ -1006,7 +1006,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .cid-sbaysbVyrb button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1161,7 +1161,7 @@ a {
 }
 .cid-sbayWwog8C {
   padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 4rem;
   background-color: #ff8a8a;
 }
 .cid-sbayWwog8C .carousel-item {
@@ -1208,6 +1208,73 @@ a {
   .cid-sbayWwog8C .user_image {
     width: 100%;
     height: auto;
+  }
+}
+.cid-sblCr8iIq5 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #0d0000;
+}
+@media (max-width: 767px) {
+  .cid-sblCr8iIq5 .content {
+    text-align: center;
+  }
+  .cid-sblCr8iIq5 .content > div:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sblCr8iIq5 .media-wrap {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sblCr8iIq5 .media-wrap .mbr-iconfont-logo {
+  font-size: 7.5rem;
+  color: #f36;
+}
+.cid-sblCr8iIq5 .media-wrap img {
+  height: 6rem;
+}
+@media (max-width: 767px) {
+  .cid-sblCr8iIq5 .footer-lower .copyright {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+.cid-sblCr8iIq5 .footer-lower hr {
+  margin: 1rem 0;
+  border-color: #fff;
+  opacity: .05;
+}
+.cid-sblCr8iIq5 .footer-lower .social-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+}
+.cid-sblCr8iIq5 .footer-lower .social-list .mbr-iconfont-social {
+  font-size: 1.3rem;
+  color: #fff;
+}
+.cid-sblCr8iIq5 .footer-lower .social-list .soc-item {
+  margin: 0 .5rem;
+}
+.cid-sblCr8iIq5 .footer-lower .social-list a {
+  margin: 0;
+  opacity: .5;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+.cid-sblCr8iIq5 .footer-lower .social-list a:hover {
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  .cid-sblCr8iIq5 .footer-lower .social-list {
+    justify-content: center;
+    -webkit-justify-content: center;
   }
 }
 .cid-sbaysbVyrb {
