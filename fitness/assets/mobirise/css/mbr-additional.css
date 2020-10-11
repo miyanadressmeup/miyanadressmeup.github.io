@@ -757,24 +757,30 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-sbayBIX93T {
-  padding-top: 6rem;
-  padding-bottom: 10rem;
-  background-image: url("../../../assets/images/nmnmmnmnmnmnmnmnm-2-736x479.jpeg");
-}
-.cid-sbayBIX93T .mbr-section-title {
-  color: #fafafa;
-  text-align: right;
-}
-.cid-sbayBIX93T .mbr-text,
-.cid-sbayBIX93T .mbr-section-btn {
-  text-align: right;
-  color: #bed3f9;
-}
-.cid-scrSt91eeo {
+.cid-sd7mphIYvI {
   padding-top: 0rem;
   padding-bottom: 0rem;
   background-color: #000000;
+}
+.cid-sd7mphIYvI .row {
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .cid-sd7mphIYvI .image-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-sd7mphIYvI .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-sd7mphIYvI .mbr-section-title {
+  color: #bbbbbb;
+}
+.cid-sd7mphIYvI .mbr-text,
+.cid-sd7mphIYvI .mbr-section-btn {
+  color: #fafafa;
 }
 .cid-sbayKp8I0k {
   padding-top: 1rem;
