@@ -28,13 +28,13 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
+        "#e9d6d6",
         "#efe3e3",
         "#4a220e",
         "#9e553b",
         "#7e6860",
         "#826e6e",
-        "#851c1c",
-        "#822121"
+        "#851c1c"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -46,7 +46,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 529,
+    "uniqCompNum": 530,
     "versionPublish": "5.0.29",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/imageedit-27-2064028564-68x65.png",
@@ -1121,7 +1121,7 @@
     "are_you_tired_of_feeling_like_you_have_a_closet.html": {
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - ARE YOU TIRED OF FEELING LIKE YOU HAVE A CLOSET FULL OF CLOTHES BUT NOTHING TO WEAR ? ",
-        "title": "MiyanaDressMeUp.in - ARE YOU TIRED OF FEELING LIKE YOU HAVE A CLOSET FULL OF CLOTHES BUT NOTHING TO WEAR ? ",
+        "title": "ARE YOU TIRED OF FEELING LIKE YOU HAVE A CLOSET FULL OF CLOTHES BUT NOTHING TO WEAR ? ",
         "order": 39
       },
       "components": [
@@ -1771,7 +1771,7 @@
     "1534355.html": {
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - FIVE POINTS TO REMEMBER BEFORE DRESSING UP ",
-        "title": "MiyanaDressMeUp.in - FIVE POINTS TO REMEMBER BEFORE DRESSING UP ",
+        "title": "FIVE POINTS TO REMEMBER BEFORE DRESSING UP ",
         "order": 35
       },
       "components": [
@@ -2427,7 +2427,7 @@
     "5222652.html": {
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - HOW TO ACCESSORIZE LIKE A PRO ",
-        "title": "MiyanaDressMeUp.in - HOW TO ACCESSORIZE LIKE A PRO ",
+        "title": "HOW TO ACCESSORIZE LIKE A PRO ",
         "order": 36
       },
       "components": [
@@ -3086,7 +3086,7 @@
     "25626.html": {
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - HOW TO TUNE UP WITH ANKLE BOOTS - DO'S & DON'TS ",
-        "title": "MiyanaDressMeUp.in - HOW TO TUNE UP WITH ANKLE BOOTS - DO'S & DON'TS ",
+        "title": "HOW TO TUNE UP WITH ANKLE BOOTS - DO'S &amp; DON'TS ",
         "order": 37
       },
       "components": [
@@ -4841,48 +4841,25 @@
         {
           "alias": false,
           "_styles": {
-            "background": "@bgColor",
-            "& when (@fullWidth = false)": {
+            "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
               "padding-bottom": "(@paddingBottom * 15px)"
             },
-            "& when (@gradientBg)": {
-              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".image-block": {
-              "margin": "auto",
-              "& when (@fullWidth)": {
-                "width": "100% !important"
-              }
-            },
-            ".mbr-figure": {
-              "margin": "0 auto"
-            },
-            "figcaption": {
-              "position": "relative",
-              "div": {
-                "position": "absolute",
-                "bottom": "0",
-                "width": "100%"
-              }
-            },
-            "@media (max-width: 768px)": {
-              ".image-block": {
-                "width": "100% !important"
-              }
-            },
-            ".mbr-figure-caption div": {
-              "color": "#cccccc"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
             }
           },
-          "_name": "image2",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/vvvv-2250x1500.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-figure-caption div\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
-          "_cid": "sdXMNqCGCG",
+          "_name": "header1",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/fashion-1031469.webp\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#7f1933\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">MIYANADRESSMEUP</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    BY MIYANA GOMEZ</h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">WHEN THINGS CHANGE INSIDE YOU , THINGS CHANGE AROUND YOU</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                        <span class=\"mbr-iconfont mbri-file\"></span>LEARN MORE</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "selQQ95T6k",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "image2-eo"
+          "_anchor": "header1-ep"
         },
         {
           "alias": false,
@@ -4962,11 +4939,11 @@
           "_name": "content7",
           "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#9e553b\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>SUSTAINABLE FASHION</b><br>Sustainable fashion is a movement and process of fostering change to fashion products and the fashion system towards greater ecological integrity and social justice. ... This means dealing with interdependent social, cultural, ecological, and financial systems.<br></p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/beautiful-3116587-1280-436x291.jpg\" alt=\"Mobirise\">  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sdXpwpNipX",
+          "_anchor": "content7-ej",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content7-ej"
+          "_params": {}
         },
         {
           "alias": false,
@@ -5013,11 +4990,11 @@
           "_name": "content6",
           "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked>  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#787324\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/fashion-1031469-480.webp\" alt=\"Mobirise\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>SUSTAINABLE WARDROBE</b><br>Only buy items that you know are going to work for you all-year-round. Don't shell out on an entire summer wardrobe each year . Buy Jeans, T-shirts, classic dresses, timeless coats and jackets will make for a much more sustainable wardrobe.</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sdXpvbwrOL",
+          "_anchor": "content6-ei",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content6-ei"
+          "_params": {}
         },
         {
           "alias": false,
@@ -5065,11 +5042,11 @@
           "_name": "content7",
           "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#4a220e\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>SMART SHOPPING</b><br>It doesn't take a million dollar budget and a glam squad to look your best. It's all about understanding figure flattery and knowing what trends work for your lifestyle. By which is ever trendy.<br></p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/pexels-photo-2001121.webp\" alt=\"Mobirise\">  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sdXrBxO0G0",
+          "_anchor": "content7-el",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content7-el"
+          "_params": {}
         },
         {
           "alias": false,
@@ -5116,11 +5093,11 @@
           "_name": "content6",
           "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"55\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" checked>  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#232323\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/ggfgf-1-436x436.jpeg\" alt=\"Mobirise\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>WEAR VAGAN</b><br>Humans may differ in appearance from cows, sheep, and other animals killed for clothing, but we're alike in all the ways that matter most. We all think and feel; experience pain, fear, love, and joy; and, most importantly, share a desire to live.&nbsp;Wearing vegan allows us to respect other animals as individuals who have as much interest in freedom and staying alive as we do.<b><br></b><br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sdXAYrl8eO",
+          "_anchor": "content6-en",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content6-en"
+          "_params": {}
         },
         {
           "_styles": {
@@ -7737,7 +7714,7 @@
     "828475525.html": {
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - WHAT IS CAPSULE WARDROBE & WHY CAPSULE WARDROBE ESSENTIALS?",
-        "title": "MiyanaDressMeUp.in - WHAT IS CAPSULE WARDROBE & WHY CAPSULE WARDROBE ESSENTIALS?",
+        "title": "WHAT IS CAPSULE WARDROBE &amp; WHY CAPSULE WARDROBE ESSENTIALS?",
         "order": 34
       },
       "components": [
@@ -8425,7 +8402,7 @@
     "5463486238.html": {
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - HOW TO FIND YOUR STYLE ",
-        "title": "MiyanaDressMeUp.in - HOW TO FIND YOUR STYLE ",
+        "title": "HOW TO FIND YOUR STYLE ",
         "order": 33
       },
       "components": [
@@ -9083,7 +9060,7 @@
     "852486224.html": {
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - BUILD YOU OWN CAPSULE WARDROBE ",
-        "title": "MiyanaDressMeUp.in - BUILD YOU OWN CAPSULE WARDROBE ",
+        "title": "BUILD YOU OWN CAPSULE WARDROBE ",
         "order": 32
       },
       "components": [
@@ -9741,7 +9718,7 @@
     "72613663.html": {
       "settings": {
         "meta_descr": "MiyanaDresseMeUp.in - DO'S & DON'TS IN CAPSULE WARDROBE ",
-        "title": "MiyanaDresseMeUp.in - DO'S & DON'TS IN CAPSULE WARDROBE ",
+        "title": "DO'S &amp; DON'TS IN CAPSULE WARDROBE ",
         "order": 31
       },
       "components": [
@@ -10399,7 +10376,7 @@
     "258556.html": {
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in | What is Signature style & How to Develop a signature style??",
-        "title": "MiyanaDressMeUp.in - What is Signature style & How to Develop a signature style??",
+        "title": "What is Signature style &amp; How to Develop a signature style??",
         "order": 30
       },
       "components": [
@@ -11784,7 +11761,7 @@
     "32425.html": {
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in -  WHY NO MATCHY MATCHY??? ",
-        "title": "MiyanaDressMeUp.in -  WHY NO MATCHY MATCHY??? ",
+        "title": "WHY NO MATCHY MATCHY??? ",
         "order": 29
       },
       "components": [
@@ -12513,7 +12490,7 @@
     "4218952.html": {
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - THINGS YOU SHOULD KNOW ABOUT PROFESSIONAL PROFILE PICTURES",
-        "title": "MiyanaDressMeUp.in - THINGS YOU SHOULD KNOW ABOUT PROFESSIONAL PROFILE PICTURES",
+        "title": "THINGS YOU SHOULD KNOW ABOUT PROFESSIONAL PROFILE PICTURES",
         "order": 28
       },
       "components": [
@@ -13998,7 +13975,7 @@
     "2154262513.html": {
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - Tricks Small-Breasts Women Should Consider ",
-        "title": "MiyanaDressMeUp.in - Tricks Small-Breasts Women Should Consider ",
+        "title": "Tricks Small-Breasts Women Should Consider ",
         "order": 27
       },
       "components": [
@@ -14854,7 +14831,7 @@
     "321524136.html": {
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - There Is Endless Street Style Inspiration for How to Make Ripped Jeans Look Chic",
-        "title": "MiyanaDressMeUp.in - How to Make Ripped Jeans Look Chic",
+        "title": "How to Make Ripped Jeans Look Chic",
         "order": 26
       },
       "components": [
