@@ -47,7 +47,7 @@
     ],
     "versionFirst": "4.7.6",
     "uniqCompNum": 530,
-    "versionPublish": "5.0.29",
+    "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/imageedit-27-2064028564-68x65.png",
     "noImageResize": "true",
@@ -58,7 +58,9 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "how_to_look_slimmer_every_day.html": {
