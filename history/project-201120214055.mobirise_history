@@ -5077,8 +5077,8 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/girl-1848949-960.webp",
-                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -5093,11 +5093,11 @@
                 "overlay": true,
                 "contentAlign": "left",
                 "text": "ALL ABOUT FASHION",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"123513215.html\" data-toolbar=\"-mbrBtnMove\">CLICK HERE FOR MORE</a> ",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-black-outline\" data-app-placeholder=\"Type Text\" href=\"123513215.html\" data-toolbar=\"-mbrBtnMove\">CLICK HERE FOR MORE</a> ",
                 "overlayOpacity": "0.5"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/sport-1235019-960-720-960x640.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1275.jpg",
                 "active": false,
                 "showButtons": true,
                 "showText": true,
@@ -5117,7 +5117,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1920x1281.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
