@@ -58,7 +58,10 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "mbrsite": "mbrsite://%7B%22id%22%3A90460%2C%22domain%22%3A%22kbufonob93.mobirisesite.com%22%7D",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "how_to_look_slimmer_every_day.html": {
@@ -5097,7 +5100,7 @@
                 "overlayOpacity": "0.5"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/sport-1235019-960-720-960x640.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sport-1235019_960-720-960x640.jpg",
                 "active": true,
                 "showButtons": true,
                 "showText": true,
