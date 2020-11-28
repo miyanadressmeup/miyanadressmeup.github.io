@@ -5081,7 +5081,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/girl-1848949-960.webp",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -5097,11 +5097,11 @@
                 "contentAlign": "left",
                 "text": "ALL ABOUT FASHION",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"123513215.html\" data-toolbar=\"-mbrBtnMove\">CLICK HERE</a> ",
-                "overlayOpacity": "0.2"
+                "overlayOpacity": "0.5"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/sport-1235019_960-720-960x640.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -5116,8 +5116,7 @@
                 "overlay": true,
                 "contentAlign": "right",
                 "text": "All about Fitness",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-black\" data-app-placeholder=\"Type Text\" href=\"https://miyanadressmeup.github.io/fitness/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CLICK HERE</a> ",
-                "overlayOpacity": "0"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-black\" data-app-placeholder=\"Type Text\" href=\"https://miyanadressmeup.github.io/fitness/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CLICK HERE</a> "
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1920x1281.jpg",
@@ -5136,8 +5135,7 @@
                 "overlay": true,
                 "contentAlign": "right",
                 "text": "All about Make-Up",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-4\" data-app-placeholder=\"Type Text\" href=\"https://miyanadressmeup.github.io/pb/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CLICK HERE</a> ",
-                "overlayOpacity": "0.1"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-4\" data-app-placeholder=\"Type Text\" href=\"https://miyanadressmeup.github.io/pb/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CLICK HERE</a> "
               }
             ]
           }
