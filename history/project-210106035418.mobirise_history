@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "DressMeUpMiyana.in",
-    "currentPage": "index.html",
+    "currentPage": "page50.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -58,7 +58,10 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "mbrsite": "mbrsite://%7B%22id%22%3A96365%2C%22domain%22%3A%22qngth5rpzt.mobirisesite.com%22%7D",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "how_to_look_slimmer_every_day.html": {
@@ -4433,8 +4436,8 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/mimg-1-m-1540x1540.jpeg",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/mimg_1_m-1540x1540.jpeg",
+                "active": true,
                 "showButtons": true,
                 "showText": false,
                 "showTitle": true,
@@ -4453,7 +4456,7 @@
                 "overlayOpacity": "0.5"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/fitness-model-gym-clothes-ball-69936.jpgd-1600x1000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fitness_model_gym_clothes_ball-69936.jpg!d-1600x1000.jpg",
                 "active": false,
                 "showButtons": true,
                 "showText": false,
@@ -4470,11 +4473,11 @@
                 "contentAlign": "left",
                 "text": "Fitness",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-black\" data-app-placeholder=\"Type Text\" href=\"https://miyanadressmeup.github.io/fitness/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CLICK HERE</a> ",
-                "overlayOpacity": "0.3"
+                "overlayOpacity": "0.6"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/kjkjkj-2000x1250.jpg",
-                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/natalya-vodyanova-model-493-1332x850.jpeg",
+                "active": false,
                 "showButtons": true,
                 "showText": false,
                 "showTitle": true,
@@ -4490,7 +4493,7 @@
                 "contentAlign": "left",
                 "text": "Make-Up",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-black\" data-app-placeholder=\"Type Text\" href=\"https://miyanadressmeup.github.io/pb/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CLICK HERE</a> ",
-                "overlayOpacity": "0.2"
+                "overlayOpacity": "0.1"
               }
             ]
           }
