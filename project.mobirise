@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "DressMeUpMiyana.in",
-    "currentPage": "index.html",
+    "currentPage": "123513215.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -46,7 +46,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 625,
+    "uniqCompNum": 626,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/imageedit-27-2064028564-68x65.png",
@@ -58,16 +58,14 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false,
-    "publishType": "local",
-    "publishPath": "file:///C:/Users/Mizuki/Documents"
+    "gdpr": false
   },
   "pages": {
     "how_to_look_slimmer_every_day.html": {
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - HOW TO LOOK SLIMMER EVERY DAY WITH YOUR BEST OUTFITS ",
         "title": "MiyanaDressMeUp.in - HOW TO LOOK SLIMMER EVERY DAY WITH YOUR BEST OUTFITS ",
-        "order": 44
+        "order": 41
       },
       "components": [
         {
@@ -1040,7 +1038,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - ARE YOU TIRED OF FEELING LIKE YOU HAVE A CLOSET FULL OF CLOTHES BUT NOTHING TO WEAR ? ",
         "title": "ARE YOU TIRED OF FEELING LIKE YOU HAVE A CLOSET FULL OF CLOTHES BUT NOTHING TO WEAR ? ",
-        "order": 45
+        "order": 42
       },
       "components": [
         {
@@ -1606,7 +1604,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - FIVE POINTS TO REMEMBER BEFORE DRESSING UP ",
         "title": "FIVE POINTS TO REMEMBER BEFORE DRESSING UP ",
-        "order": 41
+        "order": 38
       },
       "components": [
         {
@@ -2178,7 +2176,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - HOW TO ACCESSORIZE LIKE A PRO ",
         "title": "HOW TO ACCESSORIZE LIKE A PRO ",
-        "order": 42
+        "order": 39
       },
       "components": [
         {
@@ -2753,7 +2751,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - HOW TO TUNE UP WITH ANKLE BOOTS - DO'S & DON'TS ",
         "title": "HOW TO TUNE UP WITH ANKLE BOOTS - DO'S &amp; DON'TS ",
-        "order": 43
+        "order": 40
       },
       "components": [
         {
@@ -4176,7 +4174,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in | Secrets Are Here | Get Yourself a Modern Fashion Sense",
         "title": "MiyanaDressMeUp.in | Secrets Are Here | Get Yourself a Modern Fashion Sense",
-        "order": 46
+        "order": 43
       },
       "components": [
         {
@@ -4650,9 +4648,11 @@
             }
           },
           "_name": "image2",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/327-3275864_t-ara-and-end-concept-pictures-t-ara-935x683.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"pb-5 px-3 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-figure-caption div\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
-          "_cid": "sdHAvXCP9j",
-          "_anchor": "image2-da",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section group=\"Images &amp; Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg &amp;&amp; fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/327-3275864-t-ara-and-end-concept-pictures-t-ara-935x683.jpg\" alt=\"Mobirise\" title=\"\">\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text=\"\" class=\"pb-5 px-3 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-figure-caption div\"></div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_anchor": "image2-hd",
+          "_isUserblock": true,
+          "_cid": "sllI9qlBc9",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -5620,7 +5620,7 @@
       "settings": {
         "meta_descr": "MiyanaDresseUp.in | Contact Me ",
         "title": "MiyanaDresseUp.in | Contact Me",
-        "order": 47
+        "order": 44
       },
       "components": [
         {
@@ -6220,7 +6220,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - WHAT IS CAPSULE WARDROBE & WHY CAPSULE WARDROBE ESSENTIALS?",
         "title": "WHAT IS CAPSULE WARDROBE &amp; WHY CAPSULE WARDROBE ESSENTIALS?",
-        "order": 40
+        "order": 37
       },
       "components": [
         {
@@ -6824,7 +6824,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - HOW TO FIND YOUR STYLE ",
         "title": "HOW TO FIND YOUR STYLE ",
-        "order": 39
+        "order": 36
       },
       "components": [
         {
@@ -7398,7 +7398,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - BUILD YOU OWN CAPSULE WARDROBE ",
         "title": "BUILD YOU OWN CAPSULE WARDROBE ",
-        "order": 38
+        "order": 35
       },
       "components": [
         {
@@ -7972,7 +7972,7 @@
       "settings": {
         "meta_descr": "MiyanaDresseMeUp.in - DO'S & DON'TS IN CAPSULE WARDROBE ",
         "title": "DO'S &amp; DON'TS IN CAPSULE WARDROBE ",
-        "order": 37
+        "order": 34
       },
       "components": [
         {
@@ -8546,7 +8546,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in | What is Signature style & How to Develop a signature style??",
         "title": "What is Signature style &amp; How to Develop a signature style??",
-        "order": 36
+        "order": 33
       },
       "components": [
         {
@@ -9118,7 +9118,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - ITEMS TO SAVE AND SPEND ON ",
         "title": "MiyanaDressMeUp.in - ITEMS TO SAVE AND SPEND ON ",
-        "order": 14
+        "order": 11
       },
       "components": [
         {
@@ -9763,7 +9763,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in -  WHY NO MATCHY MATCHY??? ",
         "title": "WHY NO MATCHY MATCHY??? ",
-        "order": 35
+        "order": 32
       },
       "components": [
         {
@@ -10408,7 +10408,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - THINGS YOU SHOULD KNOW ABOUT PROFESSIONAL PROFILE PICTURES",
         "title": "THINGS YOU SHOULD KNOW ABOUT PROFESSIONAL PROFILE PICTURES",
-        "order": 34
+        "order": 31
       },
       "components": [
         {
@@ -11053,7 +11053,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in -  TIPS FOR WOMEN HAVING BIG BREASTS",
         "title": "MiyanaDressMeUp.in -  TIPS FOR WOMEN HAVING BIG BREASTS",
-        "order": 17
+        "order": 14
       },
       "components": [
         {
@@ -11725,7 +11725,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - Tricks Small-Breasts Women Should Consider ",
         "title": "Tricks Small-Breasts Women Should Consider ",
-        "order": 33
+        "order": 30
       },
       "components": [
         {
@@ -12497,7 +12497,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - There Is Endless Street Style Inspiration for How to Make Ripped Jeans Look Chic",
         "title": "How to Make Ripped Jeans Look Chic",
-        "order": 32
+        "order": 29
       },
       "components": [
         {
@@ -13172,7 +13172,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - PETITE STYLE TIPS AND SECRETS ",
         "title": "MiyanaDressMeUp.in - PETITE STYLE TIPS AND SECRETS ",
-        "order": 31
+        "order": 28
       },
       "components": [
         {
@@ -13844,7 +13844,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - ALL ABOUT RECTANGLE BODY SHAPE ",
         "title": "MiyanaDressMeUp.in - ALL ABOUT RECTANGLE BODY SHAPE ",
-        "order": 28
+        "order": 25
       },
       "components": [
         {
@@ -14689,7 +14689,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - ALL ABOOUT INVERTED TRIANGLE BODY SHAPE",
         "title": "MiyanaDressMeUp.in - ALL ABOUT INVERTED TRIANGLE BODY SHAPE",
-        "order": 29
+        "order": 26
       },
       "components": [
         {
@@ -15434,7 +15434,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - HOW TO DRESS FOR YOUR DATE ",
         "title": "MiyanaDressMeUp.in - HOW TO DRESS FOR YOUR DATE ",
-        "order": 30
+        "order": 27
       },
       "components": [
         {
@@ -16379,7 +16379,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in -  ALL ABOUT APPLE BODY SHAPE",
         "title": "MiyanaDressMeUp.in -  ALL ABOUT APPLE BODY SHAPE",
-        "order": 24
+        "order": 21
       },
       "components": [
         {
@@ -17124,7 +17124,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in -  ALL ABOUT HOURGLASS BODY TYPE",
         "title": "MiyanaDressMeUp.in -  ALL ABOUT HOURGLASS BODY TYPE",
-        "order": 27
+        "order": 24
       },
       "components": [
         {
@@ -17869,7 +17869,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in -  College Fashion Trends To Follow In 2020",
         "title": "MiyanaDressMeUp.in -  College Fashion Trends To Follow In 2020",
-        "order": 21
+        "order": 18
       },
       "components": [
         {
@@ -18714,7 +18714,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - Types of Style Personalities ",
         "title": "MiyanaDressMeUp.in - Types of Style Personalities ",
-        "order": 23
+        "order": 20
       },
       "components": [
         {
@@ -19562,7 +19562,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in -  WINTER STYLES FOR EVERY GIRL",
         "title": "MiyanaDressMeUp.in -  WINTER STYLES FOR EVERY GIRL",
-        "order": 22
+        "order": 19
       },
       "components": [
         {
@@ -20410,7 +20410,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in -  MISTAKES EVERY STYLISH WOMEN DO",
         "title": "MiyanaDressMeUp.in -  MISTAKES EVERY STYLISH WOMEN DO",
-        "order": 18
+        "order": 15
       },
       "components": [
         {
@@ -21155,7 +21155,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in -  THINGS EVERY STYLISH WOMEN DO",
         "title": "MiyanaDressMeUp.in -  THINGS EVERY STYLISH WOMEN DO",
-        "order": 20
+        "order": 17
       },
       "components": [
         {
@@ -22100,7 +22100,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in -  HOW TO WEAR STRIPS FOR YOUR BODY TYPE",
         "title": "MiyanaDressMeUp.in -  HOW TO WEAR STRIPS FOR YOUR BODY TYPE",
-        "order": 19
+        "order": 16
       },
       "components": [
         {
@@ -22845,7 +22845,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in -  OFFICE OUTFITS 1st Week",
         "title": "MiyanaDressMeUp.in -  OFFICE OUTFITS 1st Week",
-        "order": 25
+        "order": 22
       },
       "components": [
         {
@@ -23591,7 +23591,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "SPORTY LOOKS",
-        "order": 12
+        "order": 10
       },
       "components": [
         {
@@ -24257,7 +24257,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in -  OFFICE OUTFITS 1st Week",
         "title": "MiyanaDressMeUp.in - OFFICE OUTFITS 2nd week",
-        "order": 26
+        "order": 23
       },
       "components": [
         {
@@ -25003,7 +25003,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - ITEMS TO SAVE AND SPEND ON ",
         "title": "MiyanaDressMeUp.in - LEATHER OUTFITS",
-        "order": 16
+        "order": 13
       },
       "components": [
         {
@@ -25566,7 +25566,7 @@
       "settings": {
         "meta_descr": "MiyanaDressMeUp.in - ITEMS TO SAVE AND SPEND ON ",
         "title": "MiyanaDressMeUp.in - party outfits",
-        "order": 15
+        "order": 12
       },
       "components": [
         {
@@ -26516,7 +26516,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "GUIDE TO STREET STYLE",
-        "order": 11
+        "order": 9
       },
       "components": [
         {
@@ -27284,7 +27284,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "Saree Ideas",
-        "order": 10
+        "order": 8
       },
       "components": [
         {
@@ -28751,7 +28751,7 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "ALL ABOUT PEAR BODY SHAPE",
-        "order": 9
+        "order": 7
       },
       "components": [
         {
@@ -29392,7 +29392,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "red outfits",
-        "order": 8
+        "order": 6
       },
       "components": [
         {
@@ -30345,7 +30345,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "SHIRT IN DIFFERENT STYLE",
-        "order": 7
+        "order": 4
       },
       "components": [
         {
@@ -31259,7 +31259,7 @@
       "settings": {
         "meta_descr": "Website Builder Description\n #l #girl #fashionista #makeup #instafashion #likeforfollow #f #likeforlike #fashionstyle #followers #followback #nature #followforfollow #photoshoot #life #portrait #selfie #comment #lifestyle #shopping #summer #photographer #outfit #likesforlikes #travel #look #dress #design #handmade #onlineshopping ",
         "title": "7 Sweater Styling Tips From the Spring 2021",
-        "order": 5
+        "order": 3
       },
       "components": [
         {
@@ -31956,7 +31956,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "HOW TO PUT ON YOUR TRACK SUIT IN 2020",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
