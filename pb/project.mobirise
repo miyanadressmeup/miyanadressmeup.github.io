@@ -46,8 +46,8 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "favicon": false,
-    "imageResize": false,
+    "favicon": "@PROJECT_PATH@/assets/images/fb45000ea887555accae318de1601d26.jpg",
+    "imageResize": true,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -56,7 +56,8 @@
     "gdpr": false,
     "uniqCompNum": 67,
     "versionPublish": "5.2.0",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "witsec-white-label": true
   },
   "pages": {
     "page1.html": {
